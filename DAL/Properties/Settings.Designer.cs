@@ -25,7 +25,7 @@ namespace DAL.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BERSANOCOMPUTER")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DESKTOP-MCPO7FE")]
         public string ServerName {
             get {
                 return ((string)(this["ServerName"]));

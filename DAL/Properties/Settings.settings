@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ServerName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BERSANOCOMPUTER</Value>
+      <Value Profile="(Default)">DESKTOP-MCPO7FE</Value>
     </Setting>
     <Setting Name="DatabaseName" Type="System.String" Scope="User">
       <Value Profile="(Default)">BarangayInfoSystemV2</Value>

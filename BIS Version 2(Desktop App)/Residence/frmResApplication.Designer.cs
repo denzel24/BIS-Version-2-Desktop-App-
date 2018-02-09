@@ -31,24 +31,30 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.resId = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.txtPurok = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.txtBplace = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.txtBloodType = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dateStarted = new System.Windows.Forms.DateTimePicker();
             this.txtContactNo = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.resImage = new System.Windows.Forms.PictureBox();
             this.txtCitizenship = new System.Windows.Forms.TextBox();
             this.txtReligion = new System.Windows.Forms.ComboBox();
             this.txtCivilStatus = new System.Windows.Forms.ComboBox();
-            this.txtBloodType = new System.Windows.Forms.TextBox();
             this.txtGender = new System.Windows.Forms.ComboBox();
             this.Bdate = new System.Windows.Forms.DateTimePicker();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -99,6 +105,11 @@
             this.txtHighestEd = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
@@ -131,34 +142,34 @@
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.listView3 = new System.Windows.Forms.ListView();
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
@@ -169,16 +180,11 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
+            this.resImage = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.resImage)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -187,15 +193,16 @@
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            this.tabPage7.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.groupBox11.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.resImage)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -204,7 +211,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(838, 508);
+            this.panel1.Size = new System.Drawing.Size(930, 551);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -220,25 +227,34 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(838, 508);
+            this.tabControl1.Size = new System.Drawing.Size(930, 551);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(213)))));
+            this.tabPage1.Controls.Add(this.resId);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(830, 482);
+            this.tabPage1.Size = new System.Drawing.Size(922, 525);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
+            // 
+            // resId
+            // 
+            this.resId.AutoSize = true;
+            this.resId.Location = new System.Drawing.Point(633, 507);
+            this.resId.Name = "resId";
+            this.resId.Size = new System.Drawing.Size(0, 13);
+            this.resId.TabIndex = 2;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button2.Location = new System.Drawing.Point(400, 448);
+            this.button2.Location = new System.Drawing.Point(414, 490);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 31);
             this.button2.TabIndex = 1;
@@ -247,6 +263,14 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtAddress);
+            this.groupBox1.Controls.Add(this.label47);
+            this.groupBox1.Controls.Add(this.txtPurok);
+            this.groupBox1.Controls.Add(this.label46);
+            this.groupBox1.Controls.Add(this.txtBplace);
+            this.groupBox1.Controls.Add(this.label45);
+            this.groupBox1.Controls.Add(this.txtBloodType);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.dateStarted);
             this.groupBox1.Controls.Add(this.txtContactNo);
@@ -256,13 +280,11 @@
             this.groupBox1.Controls.Add(this.txtCitizenship);
             this.groupBox1.Controls.Add(this.txtReligion);
             this.groupBox1.Controls.Add(this.txtCivilStatus);
-            this.groupBox1.Controls.Add(this.txtBloodType);
             this.groupBox1.Controls.Add(this.txtGender);
             this.groupBox1.Controls.Add(this.Bdate);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -274,12 +296,83 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(16, 24);
+            this.groupBox1.Location = new System.Drawing.Point(18, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 424);
+            this.groupBox1.Size = new System.Drawing.Size(898, 483);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " Personal Information";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // txtAddress
+            // 
+            this.txtAddress.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtAddress.Location = new System.Drawing.Point(152, 280);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(216, 29);
+            this.txtAddress.TabIndex = 6;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(24, 288);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(69, 21);
+            this.label47.TabIndex = 30;
+            this.label47.Text = "Address:";
+            // 
+            // txtPurok
+            // 
+            this.txtPurok.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtPurok.Location = new System.Drawing.Point(152, 245);
+            this.txtPurok.Name = "txtPurok";
+            this.txtPurok.Size = new System.Drawing.Size(216, 29);
+            this.txtPurok.TabIndex = 5;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(24, 253);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(54, 21);
+            this.label46.TabIndex = 28;
+            this.label46.Text = "Purok:";
+            // 
+            // txtBplace
+            // 
+            this.txtBplace.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtBplace.Location = new System.Drawing.Point(152, 210);
+            this.txtBplace.Name = "txtBplace";
+            this.txtBplace.Size = new System.Drawing.Size(216, 29);
+            this.txtBplace.TabIndex = 4;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(20, 218);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(86, 21);
+            this.label45.TabIndex = 26;
+            this.label45.Text = "Birth Place:";
+            // 
+            // txtBloodType
+            // 
+            this.txtBloodType.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtBloodType.Location = new System.Drawing.Point(548, 310);
+            this.txtBloodType.Name = "txtBloodType";
+            this.txtBloodType.Size = new System.Drawing.Size(216, 29);
+            this.txtBloodType.TabIndex = 11;
+            this.txtBloodType.TextChanged += new System.EventHandler(this.txtBloodType_TextChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(431, 310);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(89, 21);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Blood Type:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button1
             // 
@@ -294,24 +387,24 @@
             // 
             this.dateStarted.CustomFormat = "yyyy";
             this.dateStarted.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateStarted.Location = new System.Drawing.Point(528, 368);
+            this.dateStarted.Location = new System.Drawing.Point(548, 390);
             this.dateStarted.Name = "dateStarted";
             this.dateStarted.ShowUpDown = true;
             this.dateStarted.Size = new System.Drawing.Size(216, 29);
-            this.dateStarted.TabIndex = 24;
+            this.dateStarted.TabIndex = 13;
             // 
             // txtContactNo
             // 
             this.txtContactNo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtContactNo.Location = new System.Drawing.Point(528, 328);
+            this.txtContactNo.Location = new System.Drawing.Point(548, 350);
             this.txtContactNo.Name = "txtContactNo";
             this.txtContactNo.Size = new System.Drawing.Size(216, 29);
-            this.txtContactNo.TabIndex = 23;
+            this.txtContactNo.TabIndex = 12;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(408, 376);
+            this.label13.Location = new System.Drawing.Point(428, 398);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(108, 21);
             this.label13.TabIndex = 22;
@@ -320,59 +413,43 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(408, 336);
+            this.label12.Location = new System.Drawing.Point(428, 358);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(91, 21);
             this.label12.TabIndex = 21;
             this.label12.Text = "Contact No:";
             // 
-            // resImage
-            // 
-            this.resImage.Location = new System.Drawing.Point(488, 32);
-            this.resImage.Name = "resImage";
-            this.resImage.Size = new System.Drawing.Size(232, 168);
-            this.resImage.TabIndex = 20;
-            this.resImage.TabStop = false;
-            // 
             // txtCitizenship
             // 
-            this.txtCitizenship.Location = new System.Drawing.Point(152, 376);
+            this.txtCitizenship.Location = new System.Drawing.Point(152, 421);
             this.txtCitizenship.Name = "txtCitizenship";
             this.txtCitizenship.Size = new System.Drawing.Size(216, 29);
-            this.txtCitizenship.TabIndex = 19;
+            this.txtCitizenship.TabIndex = 10;
             this.txtCitizenship.Text = "FILIPINO";
             // 
             // txtReligion
             // 
             this.txtReligion.FormattingEnabled = true;
-            this.txtReligion.Location = new System.Drawing.Point(152, 336);
+            this.txtReligion.Location = new System.Drawing.Point(152, 386);
             this.txtReligion.Name = "txtReligion";
             this.txtReligion.Size = new System.Drawing.Size(216, 29);
-            this.txtReligion.TabIndex = 18;
+            this.txtReligion.TabIndex = 9;
             // 
             // txtCivilStatus
             // 
             this.txtCivilStatus.FormattingEnabled = true;
-            this.txtCivilStatus.Location = new System.Drawing.Point(152, 296);
+            this.txtCivilStatus.Location = new System.Drawing.Point(152, 351);
             this.txtCivilStatus.Name = "txtCivilStatus";
             this.txtCivilStatus.Size = new System.Drawing.Size(216, 29);
-            this.txtCivilStatus.TabIndex = 17;
-            // 
-            // txtBloodType
-            // 
-            this.txtBloodType.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtBloodType.Location = new System.Drawing.Point(152, 256);
-            this.txtBloodType.Name = "txtBloodType";
-            this.txtBloodType.Size = new System.Drawing.Size(216, 29);
-            this.txtBloodType.TabIndex = 16;
+            this.txtCivilStatus.TabIndex = 8;
             // 
             // txtGender
             // 
             this.txtGender.FormattingEnabled = true;
-            this.txtGender.Location = new System.Drawing.Point(152, 216);
+            this.txtGender.Location = new System.Drawing.Point(152, 315);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(216, 29);
-            this.txtGender.TabIndex = 15;
+            this.txtGender.TabIndex = 7;
             // 
             // Bdate
             // 
@@ -381,12 +458,12 @@
             this.Bdate.Location = new System.Drawing.Point(152, 176);
             this.Bdate.Name = "Bdate";
             this.Bdate.Size = new System.Drawing.Size(216, 29);
-            this.Bdate.TabIndex = 14;
+            this.Bdate.TabIndex = 3;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(24, 376);
+            this.label11.Location = new System.Drawing.Point(24, 421);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(89, 21);
             this.label11.TabIndex = 13;
@@ -395,7 +472,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(24, 336);
+            this.label10.Location = new System.Drawing.Point(24, 386);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(70, 21);
             this.label10.TabIndex = 12;
@@ -404,25 +481,16 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 296);
+            this.label9.Location = new System.Drawing.Point(24, 351);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(89, 21);
             this.label9.TabIndex = 11;
             this.label9.Text = "Civil Status:";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(24, 256);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 21);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Blood Type:";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(24, 216);
+            this.label7.Location = new System.Drawing.Point(24, 315);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 21);
             this.label7.TabIndex = 9;
@@ -431,7 +499,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(24, 176);
+            this.label6.Location = new System.Drawing.Point(20, 176);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 21);
             this.label6.TabIndex = 8;
@@ -465,7 +533,7 @@
             this.txtLname.Location = new System.Drawing.Point(152, 128);
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(216, 29);
-            this.txtLname.TabIndex = 5;
+            this.txtLname.TabIndex = 2;
             // 
             // txtMname
             // 
@@ -473,7 +541,7 @@
             this.txtMname.Location = new System.Drawing.Point(152, 80);
             this.txtMname.Name = "txtMname";
             this.txtMname.Size = new System.Drawing.Size(216, 29);
-            this.txtMname.TabIndex = 4;
+            this.txtMname.TabIndex = 1;
             // 
             // txtFname
             // 
@@ -481,7 +549,7 @@
             this.txtFname.Location = new System.Drawing.Point(152, 32);
             this.txtFname.Name = "txtFname";
             this.txtFname.Size = new System.Drawing.Size(216, 29);
-            this.txtFname.TabIndex = 3;
+            this.txtFname.TabIndex = 0;
             // 
             // label3
             // 
@@ -521,7 +589,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(830, 482);
+            this.tabPage2.Size = new System.Drawing.Size(922, 525);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
@@ -556,7 +624,7 @@
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.label20);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(544, 16);
+            this.groupBox4.Location = new System.Drawing.Point(587, 22);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(280, 344);
             this.groupBox4.TabIndex = 1;
@@ -636,7 +704,7 @@
             this.groupBox3.Controls.Add(this.txtSenControlNo);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(272, 16);
+            this.groupBox3.Location = new System.Drawing.Point(315, 22);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(256, 344);
             this.groupBox3.TabIndex = 1;
@@ -686,7 +754,7 @@
             this.groupBox2.Controls.Add(this.txtVIN);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(8, 16);
+            this.groupBox2.Location = new System.Drawing.Point(51, 22);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(248, 344);
             this.groupBox2.TabIndex = 0;
@@ -751,14 +819,14 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(830, 482);
+            this.tabPage3.Size = new System.Drawing.Size(922, 525);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button5.Location = new System.Drawing.Point(344, 392);
+            this.button5.Location = new System.Drawing.Point(395, 397);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 31);
             this.button5.TabIndex = 5;
@@ -768,7 +836,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button6.Location = new System.Drawing.Point(416, 392);
+            this.button6.Location = new System.Drawing.Point(467, 397);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 31);
             this.button6.TabIndex = 4;
@@ -783,7 +851,7 @@
             this.groupBox6.Controls.Add(this.label26);
             this.groupBox6.Controls.Add(this.label25);
             this.groupBox6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(424, 8);
+            this.groupBox6.Location = new System.Drawing.Point(479, 30);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(376, 336);
             this.groupBox6.TabIndex = 1;
@@ -840,7 +908,7 @@
             this.groupBox5.Controls.Add(this.txtHighestEd);
             this.groupBox5.Controls.Add(this.label23);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(8, 8);
+            this.groupBox5.Location = new System.Drawing.Point(63, 30);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(384, 336);
             this.groupBox5.TabIndex = 0;
@@ -899,14 +967,61 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(830, 482);
+            this.tabPage4.Size = new System.Drawing.Size(922, 525);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.comboBox4);
+            this.groupBox9.Controls.Add(this.textBox7);
+            this.groupBox9.Controls.Add(this.label37);
+            this.groupBox9.Controls.Add(this.label38);
+            this.groupBox9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox9.Location = new System.Drawing.Point(73, 38);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(384, 336);
+            this.groupBox9.TabIndex = 9;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Skills";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(56, 72);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(272, 29);
+            this.comboBox4.TabIndex = 5;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(56, 144);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(272, 29);
+            this.textBox7.TabIndex = 3;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(16, 112);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(82, 21);
+            this.label37.TabIndex = 2;
+            this.label37.Text = "Skill Level:";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(16, 40);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(88, 21);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "Skill Name:";
             // 
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button10.Location = new System.Drawing.Point(336, 424);
+            this.button10.Location = new System.Drawing.Point(397, 423);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 31);
             this.button10.TabIndex = 7;
@@ -916,7 +1031,7 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button11.Location = new System.Drawing.Point(408, 424);
+            this.button11.Location = new System.Drawing.Point(469, 423);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 31);
             this.button11.TabIndex = 6;
@@ -934,7 +1049,7 @@
             this.groupBox7.Controls.Add(this.label27);
             this.groupBox7.Controls.Add(this.label28);
             this.groupBox7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(432, 16);
+            this.groupBox7.Location = new System.Drawing.Point(481, 38);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(384, 336);
             this.groupBox7.TabIndex = 1;
@@ -1019,14 +1134,14 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(830, 482);
+            this.tabPage5.Size = new System.Drawing.Size(922, 525);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             // 
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button12.Location = new System.Drawing.Point(336, 440);
+            this.button12.Location = new System.Drawing.Point(367, 450);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 31);
             this.button12.TabIndex = 12;
@@ -1036,7 +1151,7 @@
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button13.Location = new System.Drawing.Point(408, 440);
+            this.button13.Location = new System.Drawing.Point(439, 450);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 31);
             this.button13.TabIndex = 11;
@@ -1058,7 +1173,7 @@
             this.groupBox8.Controls.Add(this.label33);
             this.groupBox8.Controls.Add(this.label34);
             this.groupBox8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(32, 24);
+            this.groupBox8.Location = new System.Drawing.Point(63, 34);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(760, 408);
             this.groupBox8.TabIndex = 10;
@@ -1206,69 +1321,29 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(830, 482);
+            this.tabPage6.Size = new System.Drawing.Size(922, 525);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             // 
-            // tabPage7
+            // button14
             // 
-            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(213)))));
-            this.tabPage7.Controls.Add(this.button22);
-            this.tabPage7.Controls.Add(this.button23);
-            this.tabPage7.Controls.Add(this.groupBox12);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(830, 482);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "tabPage7";
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.button14.Location = new System.Drawing.Point(387, 435);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 31);
+            this.button14.TabIndex = 14;
+            this.button14.Text = "BACK";
+            this.button14.UseVisualStyleBackColor = true;
             // 
-            // groupBox9
+            // button15
             // 
-            this.groupBox9.Controls.Add(this.comboBox4);
-            this.groupBox9.Controls.Add(this.textBox7);
-            this.groupBox9.Controls.Add(this.label37);
-            this.groupBox9.Controls.Add(this.label38);
-            this.groupBox9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(24, 16);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(384, 336);
-            this.groupBox9.TabIndex = 9;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Skills";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(56, 72);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(272, 29);
-            this.comboBox4.TabIndex = 5;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(56, 144);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(272, 29);
-            this.textBox7.TabIndex = 3;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(16, 112);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(82, 21);
-            this.label37.TabIndex = 2;
-            this.label37.Text = "Skill Level:";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(16, 40);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(88, 21);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "Skill Name:";
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.button15.Location = new System.Drawing.Point(459, 435);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 31);
+            this.button15.TabIndex = 13;
+            this.button15.Text = "NEXT";
+            this.button15.UseVisualStyleBackColor = true;
             // 
             // groupBox10
             // 
@@ -1277,7 +1352,7 @@
             this.groupBox10.Controls.Add(this.label35);
             this.groupBox10.Controls.Add(this.label36);
             this.groupBox10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox10.Location = new System.Drawing.Point(16, 16);
+            this.groupBox10.Location = new System.Drawing.Point(51, 27);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(384, 368);
             this.groupBox10.TabIndex = 11;
@@ -1326,67 +1401,12 @@
             this.groupBox11.Controls.Add(this.comboBox6);
             this.groupBox11.Controls.Add(this.label42);
             this.groupBox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox11.Location = new System.Drawing.Point(424, 16);
+            this.groupBox11.Location = new System.Drawing.Point(459, 27);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(384, 368);
             this.groupBox11.TabIndex = 10;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Language";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(56, 72);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(272, 29);
-            this.comboBox6.TabIndex = 5;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(16, 40);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(81, 21);
-            this.label42.TabIndex = 0;
-            this.label42.Text = "Language:";
-            // 
-            // button14
-            // 
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button14.Location = new System.Drawing.Point(352, 424);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 31);
-            this.button14.TabIndex = 14;
-            this.button14.Text = "BACK";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.button15.Location = new System.Drawing.Point(424, 424);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 31);
-            this.button15.TabIndex = 13;
-            this.button15.Text = "NEXT";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // listView2
-            // 
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5});
-            this.listView2.FullRowSelect = true;
-            this.listView2.GridLines = true;
-            this.listView2.Location = new System.Drawing.Point(32, 160);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(320, 184);
-            this.listView2.TabIndex = 6;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Language";
-            this.columnHeader5.Width = 310;
             // 
             // button16
             // 
@@ -1415,6 +1435,75 @@
             this.button18.Text = "Add";
             this.button18.UseVisualStyleBackColor = true;
             // 
+            // listView2
+            // 
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader5});
+            this.listView2.FullRowSelect = true;
+            this.listView2.GridLines = true;
+            this.listView2.Location = new System.Drawing.Point(32, 160);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(320, 184);
+            this.listView2.TabIndex = 6;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Language";
+            this.columnHeader5.Width = 310;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(56, 72);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(272, 29);
+            this.comboBox6.TabIndex = 5;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(16, 40);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(81, 21);
+            this.label42.TabIndex = 0;
+            this.label42.Text = "Language:";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(213)))));
+            this.tabPage7.Controls.Add(this.button22);
+            this.tabPage7.Controls.Add(this.button23);
+            this.tabPage7.Controls.Add(this.groupBox12);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(922, 525);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "tabPage7";
+            // 
+            // button22
+            // 
+            this.button22.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.Location = new System.Drawing.Point(392, 459);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 31);
+            this.button22.TabIndex = 16;
+            this.button22.Text = "BACK";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button23.Location = new System.Drawing.Point(464, 459);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 31);
+            this.button23.TabIndex = 15;
+            this.button23.Text = "ADD";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
+            // 
             // groupBox12
             // 
             this.groupBox12.Controls.Add(this.textBox12);
@@ -1432,13 +1521,29 @@
             this.groupBox12.Controls.Add(this.label41);
             this.groupBox12.Controls.Add(this.label43);
             this.groupBox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox12.Location = new System.Drawing.Point(35, 16);
+            this.groupBox12.Location = new System.Drawing.Point(72, 27);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(760, 429);
             this.groupBox12.TabIndex = 11;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Business Engagement";
             this.groupBox12.Enter += new System.EventHandler(this.groupBox12_Enter);
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(56, 296);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(272, 29);
+            this.textBox12.TabIndex = 20;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(16, 272);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(130, 21);
+            this.label44.TabIndex = 19;
+            this.label44.Text = "Business Contact:";
             // 
             // button19
             // 
@@ -1485,6 +1590,11 @@
             // 
             this.columnHeader9.Text = "Business Contact";
             this.columnHeader9.Width = 164;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Business Started";
+            this.columnHeader10.Width = 153;
             // 
             // button20
             // 
@@ -1572,65 +1682,33 @@
             this.label43.TabIndex = 0;
             this.label43.Text = "Business Name:";
             // 
-            // textBox12
+            // resImage
             // 
-            this.textBox12.Location = new System.Drawing.Point(56, 296);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(272, 29);
-            this.textBox12.TabIndex = 20;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(16, 272);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(130, 21);
-            this.label44.TabIndex = 19;
-            this.label44.Text = "Business Contact:";
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Business Started";
-            this.columnHeader10.Width = 153;
-            // 
-            // button22
-            // 
-            this.button22.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(355, 448);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 31);
-            this.button22.TabIndex = 16;
-            this.button22.Text = "BACK";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(427, 448);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 31);
-            this.button23.TabIndex = 15;
-            this.button23.Text = "ADD";
-            this.button23.UseVisualStyleBackColor = true;
+            this.resImage.Location = new System.Drawing.Point(488, 32);
+            this.resImage.Name = "resImage";
+            this.resImage.Size = new System.Drawing.Size(232, 168);
+            this.resImage.TabIndex = 20;
+            this.resImage.TabStop = false;
             // 
             // frmResApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(838, 508);
+            this.ClientSize = new System.Drawing.Size(930, 551);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmResApplication";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Application For Residence";
+            this.Load += new System.EventHandler(this.frmResApplication_Load);
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.resImage)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -1644,21 +1722,22 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.tabPage4.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.tabPage6.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.resImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1811,5 +1890,12 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.TextBox txtBplace;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.TextBox txtPurok;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label resId;
     }
 }
